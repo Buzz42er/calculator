@@ -9,11 +9,50 @@
     <script defer src="/script.js"></script>
 </head>
 <body>
+    <!--dividing main in 2 seperet sections for input and output-->
     <main>
-        <div id="input">
-            <input type="number" name="number" id="number">
+        <!--output section, where you can see what you tiped in and what has been computed-->
+        <section id="visual">
+            
+            <div id="text"></div>
+            <!--<input name="text" id="text" disabled>-->
+            
+            <div id="output"></div>
+        </section>
+        <!--input par is for digital keyboard with whome you tipe in numbers into visual-->
+        <section id="input">
+            <div class="row">
+            <button id="AC" onclick="clearALL()">AC</button>
+            <button id="()" class="blue" onclick="insert()">()</button>
+            <button id="%" class="blue" onclick="insert()">%</button>
+            <Button id="/" class="blue" onclick="insert('/')">/</Button>
         </div>
-        #
+        <div class="row">
+            <button id="7" onclick="insert(7)">7</button>
+            <button id="8" onclick="insert(8)">8</button>
+            <button id="9" onclick="insert(9)">9</button>
+            <button id="*" class="blue" onclick="insert('*')">*</button>
+        </div>
+        <div class="row">
+            <button id="4" onclick="insert(4)">4</button>
+            <button id="5" onclick="insert(5)">5</button>
+            <button id="6" onclick="insert(6)">6</button>
+            <button id="-" class="blue" onclick="insert('-')">-</button>
+        </div>
+        <div class="row">
+            <button id="1" onclick="insert(1)">1</button>
+            <button id="2" onclick="insert(2)">2</button>
+            <button id="3" onclick="insert(3)">3</button>
+            <button id="+" class="blue" onclick="insert('-')">+</button>
+        </div>
+        <div class="row">
+            <button id="0" onclick="insert(0)">0</button>
+            <button id="," onclick="insert()">,</button>
+            <button id="///" onclick="clearL()">///</button>
+            <button id="equal" onclick="equal()">=</button>
+        </div>
+        </section>
+
     </main>
 </body>
 </html>
