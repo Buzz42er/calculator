@@ -9,6 +9,7 @@ body {
     background: transparent;
     font-family: 'Kanit', sans-serif;
 }
+
 main {
     width: 450px;
     height: 870px;
@@ -91,7 +92,7 @@ button:active {
 
 #AC {
     background: green;
-    
+
 }
 
 #equal {
