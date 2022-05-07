@@ -2,12 +2,16 @@
 
 html {
     background: transparent;
+    
+    
 }
 
 body {
     margin: 0px;
     background: transparent;
     font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 main {
@@ -42,10 +46,10 @@ main {
 
 #output {
     background: transparent;
-    font-size: 90px;
+    font-size: 60px;
     height: 120px;
     width: 410;
-    color: aliceblue;
+    color: rgb(139, 145, 151);
     border: none;
     text-align: end;
     border-radius: 50px 50px 0 0;
