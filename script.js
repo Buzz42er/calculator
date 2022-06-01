@@ -20,7 +20,7 @@ function clearALL() {
   var text = document.getElementById("text");
   //innerHTML
   var AC = text.innerHTML;
-  //substring
+  //substring //why is there '- clearALL'
   text.innerHTML = AC.substring(0, AC.length - clearALL);
 
   //clears output div
