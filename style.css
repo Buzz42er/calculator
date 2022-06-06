@@ -8,7 +8,7 @@ html {
 
 body {
     margin: 0px;
-    background: transparent;
+    background: rgb(48, 48, 48);
     font-family: 'Kanit', sans-serif;
     display: flex;
     justify-content: center;
