@@ -19,14 +19,14 @@ function clearALL() {
   //clears text div
   var text = document.getElementById("text");
   //innerHTML
-  var AC = text.innerHTML;
+  var clearT = text.innerHTML;
   //substring //why is there '- clearALL'
-  text.innerHTML = AC.substring(0, AC.length - clearALL);
+  text.innerHTML = clearT.substring(0, clearT.length - clearALL);
 
   //clears output div
   var output = document.getElementById("output");
-  var DC = output.innerHTML;
-  output.innerHTML = DC.substring(0, DC.length - clearALL);
+  var clearO = output.innerHTML;
+  output.innerHTML = clearO.substring(0, clearO.length - clearALL);
 }
 
 function equal() {
