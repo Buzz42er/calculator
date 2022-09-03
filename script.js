@@ -45,17 +45,21 @@ function equal() {
 function parenthesis() {
   //if there is odd number if left parenthesis => add right parenthesis else add left
   //if there is odd number of clicks on the button => add right parenthesis else add left
-
   //need to add counter and if 1 then ) else (its 0) then (
   //not shore how to do it jet
-  var click = 0;
-
-  if (click % 2) {
-    document.getElementById("text").innerHTML += ")";
-    click++;
-    console.log(click);
-  } else {
-    document.getElementById("text").innerHTML += "(";
-    console.log(click);
-  }
+  // click
+  //   ? (document.getElementById("text").innerHTML += "(")
+  //   : (document.getElementById("text").innerHTML += ")");
+  // for (let click = 0; click < 2; click++) {
+  // if (click % 2) {
+  //   console.log("click1 " + click);
+  //   document.getElementById("text").innerHTML += ")";
+  //   return (click = 0);
+  // } else {
+  //   console.log(click + 1);
+  //   console.log("click2 " + click);
+  //   document.getElementById("text").innerHTML += "(";
+  //   return (click = 1);
+  // }
+  // }
 }
