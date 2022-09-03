@@ -37,6 +37,8 @@ function equal() {
       document.getElementById("text").innerHTML
     );
     console.log("action had been done");
+  } else {
+    document.getElementById("text").innerHTML = "Error";
   }
 }
 
